@@ -1,0 +1,5 @@
+Create the service file in /etc/init.d/<service name>
+chmod 700 /etc/init.d/<service name>
+update-rc.d <service name> defaults
+update-rc.d <service name> enable
+service --status-all
